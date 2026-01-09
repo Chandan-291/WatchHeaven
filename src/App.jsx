@@ -13,7 +13,7 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Success from "./pages/Success";
 import OrderHistory from "./pages/OrderHistory";
-import Collection from "./components/Collection";
+
 
 // Import components
 import Navbar from "./components/Navbar";
@@ -132,11 +132,7 @@ export default function App() {
               <Collections /> {/* Or create a separate CollectionDetail page */}
             </MainLayout>
           } />
-          <Route path="/collection" element={
-  <MainLayout>
-    <Collection />
-  </MainLayout>
-} />
+        
           
           {/* 404 Page */}
           <Route path="*" element={
