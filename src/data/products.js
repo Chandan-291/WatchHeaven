@@ -621,7 +621,11 @@ export const conditions = [
   { id: "good", name: "Good" },
   { id: "fair", name: "Fair" }
 ];
-
+export const Collection = [
+  { id: "excellent", name: "Excellent" },
+  { id: "good", name: "Good" },
+  { id: "fair", name: "Fair" }
+];
 // --- HELPER FUNCTIONS ---
 
 export const getProductById = (id) => products.find(p => p.id === id);
